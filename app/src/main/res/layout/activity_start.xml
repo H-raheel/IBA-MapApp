@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapapp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mapapplication.aiiapplicationtest.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapapp:layout_constraintBottom_toBottomOf="parent"
+        mapapp:layout_constraintLeft_toLeftOf="parent"
+        mapapp:layout_constraintRight_toRightOf="parent"
+        mapapp:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>
